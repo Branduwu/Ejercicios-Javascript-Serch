@@ -1,0 +1,65 @@
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ececec; /* Fondo blanco grisáceo */
+  color: #433426; /* Texto marrón oscuro */
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #9c7a52; /* Barra de navegación marrón */
+}
+
+.navbar-brand {
+  color: #dcded4; /* Texto blanco */
+}
+
+.navbar-nav .nav-link {
+  color: #dcded4; /* Texto blanco */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ab8770; /* Cambia el color del texto al pasar el mouse */
+}
+
+.nav-item {
+  margin-right: 20px; /* Espaciado entre elementos del menú */
+}
+
+/* Estilos para el contenido principal */
+.container {
+  background-color: #c3a784; /* Fondo marrón claro */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilos para la imagen de perfil */
+.img-fluid {
+  width: 150px; /* Tamaño máximo de la imagen */
+  height: auto; /* Altura ajustada automáticamente */
+  border: 5px solid #9c7a52; /* Borde marrón */
+}
+
+/* Estilos para el párrafo */
+p {
+  text-align: center; /* Centra el texto */
+  font-size: 1.2em; /* Tamaño de fuente */
+  margin-top: 20px; /* Espacio superior */
+  color: #433426; /* Texto marrón oscuro */
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #5b7e76; /* Verde azulado */
+  color: #dcded4; /* Texto blanco */
+}
+.contenedor {
+  background-color: #cfb18c; /* Fondo blanco grisáceo */
+  color: #433426; /* Texto marrón oscuro */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}

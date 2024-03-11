@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 5 de JavaScript</title>
+  <link rel="icon" href="./img/globo-terraqueo.png" type="image/png"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dcded4; /* Fondo  */
+      color: #433426; /* Texto  */
+      padding-top: 50px; /* Espaciado superior */
+    }
+
+    .contenedor {
+      background-color: #fff; /* Fondo blanco */
+      color: #433426; /* Texto  */
+      padding: 20px; /* Espaciado interno */
+      border-radius: 8px; /* Borde redondeado */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+      margin-bottom: 20px; /* Espaciado inferior */
+    }
+
+    #resultado {
+      margin-top: 20px; /* Espaciado superior */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="contenedor">
+          <h2>Instrucciones del Ejercicio 5</h2>
+          <p>Exercise #5</p>
+          <p>For each of the exercises below, assume you are starting with the following people array.</p>
+          <pre><code>let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];</code></pre>
+          <p>Write a command that prints out all of the people in the list.</p>
+          <p>Write the command to remove "Dani" from the array.</p>
+          <p>Write the command to remove "Juan" from the array.</p>
+          <p>Write the command to move "Luis" to the front of the array.</p>
+          <p>Write the command to add your name to the end of the array.</p>
+          <p>Using a loop, iterate through this array and after console.log "Maria", exit from the loop.</p>
+          <p>Write the command that gives the indexOf where "Maria" is located.</p>
+          <p>At the end of the exercise, there should be 4 people in the array.</p>
+        </div>
+        <div class="contenedor">
+          <h2>Resultado del Ejercicio 5</h2>
+          <div id="resultado"></div>
+          <button id="imprimirResultado" class="btn btn-primary mt-3">Imprimir en Consola</button>
+          <button id="regresarInicio" class="btn btn-secondary mt-3">Regresar al Inicio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js5.js"></script>
+  <script>
+    document.getElementById("imprimirResultado").addEventListener("click", function() {
+      executeCommands();
+    });
+
+    document.getElementById("regresarInicio").addEventListener("click", function() {
+      window.location.href = "index.html"; // Cambiar "index.html" por la página de inicio
+    });
+  </script>
+</body>
+</html>

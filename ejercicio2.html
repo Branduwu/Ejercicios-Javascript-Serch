@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 2 de JavaScript</title>
+  <link rel="icon" href="./img/globo-terraqueo.png" type="image/png"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dcded4; /* Fondo */
+      color: #433426; /* Texto */
+      padding-top: 50px; /* Espaciado */
+    }
+
+    .contenedor {
+      background-color: #fff; /* Fondo blanco */
+      color: #433426; /* Texto */
+      padding: 20px; /* Espaciado interno */
+      border-radius: 8px; /* Borde redondeado */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+      margin-bottom: 20px; /* Espaciado inferior */
+    }
+
+    #resultado {
+      margin-top: 20px; /* Espaciado superior */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="contenedor">
+          <h2>Instrucciones del Ejercicio 2</h2>
+          <p>Write a function that:</p>
+          <ul>
+            <li>Takes in an array of numbers.</li>
+            <li>Doubles the value of each number in the array.</li>
+            <li>Prints out the new updated array.</li>
+          </ul>
+          <p>Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10].</p>
+        </div>
+        <div class="contenedor">
+          <h2>Resultado del Ejercicio 2</h2>
+          <div id="resultado"></div>
+          <button id="imprimirResultado" class="btn btn-primary mt-3"> Imprimir en Consola </button>
+          <button id="regresarInicio" class="btn btn-secondary mt-3"> Regresar al Inicio </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js2.js"></script>
+  <script>
+    document.getElementById("imprimirResultado").addEventListener("click", function() {
+      doubleNumbers();
+    });
+    document.getElementById("regresarInicio").addEventListener("click", function() {
+      window.location.href = "index.html"; 
+    });
+  </script>
+</body>
+</html>

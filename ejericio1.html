@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea de JavaScript</title>
+  <link rel="icon" href="./img/globo-terraqueo.png" type="image/png"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #dcded4; /* Fondo */
+      color: #433426; /* Texto */
+      padding-top: 50px; /* Espaciado superior */
+    }
+    .contenedor {
+      background-color: #fff; /* Fondo */
+      color: #433426; /* Texto */
+      padding: 20px; /* Espaciado interno */
+      border-radius: 8px; /* Borde redondeado */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+      margin-bottom: 20px; /* Espaciado inferior */
+    }
+    #resultado {
+      margin-top: 20px; /* Espaciado superior */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="contenedor">
+          <h2>Instrucciones del Ejercicio</h2>
+          <p>Copy the code below into your workspace:</p>
+          <pre><code>let arr = ["This", "is", "a", "sentence."];
+function printOutString() {
+  // your code here
+}
+printOutString();</code></pre>
+          <p>Complete the function to print out the string: This is a sentence.</p>
+        </div>
+        <div class="contenedor">
+          <h2>Resultado del Ejercicio</h2>
+          <p>Revisa la consola <img src="./img/mando.png" alt="icon"></p>
+          <div id="resultado"></div>
+          <button id="imprimirResultado" class="btn btn-primary mt-3"> Imprimir Resultado </button>
+          <button id="regresarIndex" class="btn btn-primary mt-3"> Regresar al inicio </button>
+        </div>
+      </div>
+    </div>
+  <script src="./js1.js"></script>
+</body>
+</html>
